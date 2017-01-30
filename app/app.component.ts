@@ -2,11 +2,9 @@ import {Component} from '@angular/core';
 import {HeroesComponent} from './heroes.component';
 
 @Component({
+  moduleId : module.id,
   selector : 'my-app',
-  template : `
-    <h1>{{title}}</h1>
-    <my-heroes></my-heroes>
-  `
+  templateUrl : './templates/app.component.tmpl.html'
 })
 
 export class AppComponent{

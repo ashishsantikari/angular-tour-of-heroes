@@ -6,11 +6,11 @@ import { HEROES } from './mock-heroes';
 export class HeroService {
 
     getHeros(): Promise<Hero[]> {
-        //return Promise.resolve(HEROES);
-        return new Promise(resolve => {
+        return Promise.resolve(HEROES);
+        /*return new Promise(resolve => {
             // Simulate server latency with 2 second delay
             setTimeout(() => resolve(HEROES), 3000);
-        });
+        });*/
     }
 
 }
