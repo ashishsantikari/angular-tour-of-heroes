@@ -27,7 +27,7 @@
     "@angular/router": "3.4.10",
 
     "angular-in-memory-web-api": "0.2.5",
-    "systemjs": "0.19.40",
+    "systemjs": "0.21.6",
     "core-js": "2.6.9",
     "rxjs": "6.5.2",
     "zone.js": "0.7.8"
