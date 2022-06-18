@@ -43,7 +43,7 @@
     "lodash": "4.17.15",
     "jasmine-core": "2.4.1",
     "karma": "1.7.1",
-    "karma-chrome-launcher": "2.2.0",
+    "karma-chrome-launcher": "3.1.1",
     "karma-cli": "1.0.1",
     "karma-jasmine": "1.1.2",
     "karma-jasmine-html-reporter": "0.2.2",
